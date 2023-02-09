@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/* style tombol */
+.bulat {
+    border-radius: 50%;
+}
+
+/* style table */
+table thead th {
+    background-color: darkslateblue;
+    color: white;
+}
+
+table thead th:first-child {
+    border-radius: 6px 0 0 0px;
+
+}
+
+table thead th:last-child {
+    border-radius: 0 6px 0px 0;
+}
+
+/* style datatables */
+.dt-body-right {
+    text-align: right;
+}
+
+.dt-body-center {
+    text-align: center;
+}
+
+/* Validasi Form */
+#addForm input:required {
+    border-color: #ff0000;
+    border-width: 1px;
+    border-style: dashed;
+}
+
+#addForm input:invalid,
+#myForm input:invalid {
+    background-color: #ffdddd;
+}
+
+#addForm input:valid,
+#myForm input:valid {
+    background-color: #e9f9f0;
+    border-color: #095a82;
+    border-width: 1px;
+}
+
+/* tooltips */
+.tippy-box[data-theme~='gradient'] {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(11deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+}
+
+/* Icon Pesan */
+.warna-pesan {
+    color: aqua;
+}

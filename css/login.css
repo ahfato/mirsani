@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: #bebebe;
+    font-family: "Helvetica Neue", Arial, Sans-Serif;
+    margin-top: 100px;
+}
+
+html .login-wrap {
+    position: relative;
+    margin: 0 auto;
+    background: #ecf0f1;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #333;
+    padding: 15px;
+}
+
+html .login-wrap h2 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 2em;
+    margin-top: 10px;
+    color: #34495e;
+}
+
+html .login-wrap .form {
+    padding-top: 20px;
+}
+
+html .login-wrap .form input[type="email"],
+html .login-wrap .form input[type="password"],
+html .login-wrap .form button {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 25px;
+    height: 40px;
+    border-radius: 5px;
+    outline: 0;
+    -moz-outline-style: none;
+}
+
+html .login-wrap .form input[type="email"],
+html .login-wrap .form input[type="password"] {
+    border: 1px solid #bbb;
+    padding: 0 0 0 10px;
+    font-size: 14px;
+}
+
+html .login-wrap .form input[type="email"]:focus,
+html .login-wrap .form input[type="password"]:focus {
+    border: 1px solid #3498db;
+}
+
+html .login-wrap .form a {
+    text-align: center;
+    font-size: 10px;
+    color: #3498db;
+}
+
+html .login-wrap .form a p {
+    padding-bottom: 10px;
+}
+
+html .login-wrap .form button {
+    background: rgb(2, 73, 163);
+    background: linear-gradient(9deg, rgba(2, 73, 163, 1) 0%, rgba(52, 231, 252, 1) 100%);
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    cursor: pointer;
+    transition: box-shadow 0.4s ease;
+}
+
+html .login-wrap .form button:hover {
+    box-shadow: 1px 1px 5px #555;
+}
+
+html .login-wrap .form button:active {
+    box-shadow: 1px 1px 7px #222;
+}
+
+html .login-wrap:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 28%, rgba(78, 5, 179, 1) 60%, rgba(0, 212, 255, 1) 99%);
+    height: 5px;
+    border-radius: 5px 5px 0 0;
+}
